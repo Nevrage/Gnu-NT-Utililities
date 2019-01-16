@@ -1,0 +1,3 @@
+/usr/bin/neomutt
+
+#C:\Users\yallouche\Desktop>putty localhost -l ylan -pw prEch4jones$ -loghost "Term" -m "vim.txt" -t

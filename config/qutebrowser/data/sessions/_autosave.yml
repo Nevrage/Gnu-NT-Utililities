@@ -1,0 +1,15 @@
+windows:
+- active: true
+  geometry: !!binary |
+    AdnQywACAAAAAACDAAAAQwAAA6wAAAKyAAAAiAAAAFYAAAOnAAACrQAAAAAAAAAABQA=
+  tabs:
+  - active: true
+    history:
+    - active: true
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: '~'
+      url: file:///C:/Users/yallouche/Desktop/Scripts/homepage/index.html
+      zoom: 1.0

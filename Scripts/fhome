@@ -1,0 +1,3 @@
+#! /bin/bash
+tar -czvf ~/windows/backup.tar.gz ~/windows/Desktop/
+sudo rsync -r -t -p -v --progress --delete -u -s ylan@ylanallouche.xyz:/home/ylan/Files/Instances/Work/Desktop/* /home/ylan/windows/Desktop/ 

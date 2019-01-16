@@ -1,0 +1,19 @@
+export DISPLAY=p1343:0.0
+
+ 
+alias tunnel= "autossh -M 10984 -N -f -o 'PubkeyAuthentication=yes' -o 'PasswordAuthentication=no' -i /home/user/.ssh/id_rsa -R 19999:localhost:22 url.xyz & "
+
+# alias bash2rc="vim ~/windows/Desktop/Scripts/bash2rc"
+alias neofetch="neofetch --ascii_distro windows7 --gtk3 off --gtk2 off   --gpu_brand off --gpy_type none"
+alias info="neofetch --ascii_distro windows7 --gtk3 off --gtk2 off   --gpu_brand off --gpy_type none"
+
+
+alias 2home="rsync -r -t -p -v --progress --delete -u -s  /home/user/windows/Desktop user@ulr.xyz:/home/ylan/Files/Instances/Work"
+
+export PATH=~/windows/Desktop/Scripts:$PATH
+export TODO_FILE="~/windows/Desktop/todo.txt"
+export DONE_FILE="~/windows/Desktop/Rssources/done.txt"
+
+cd ~/windows/Desktop 
+
+clear
